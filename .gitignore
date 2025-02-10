@@ -1,6 +1,46 @@
+# Node.js
 node_modules
 dist
 .DS_Store
 server/public
 vite.config.ts.*
 *.tar.gz
+
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+coverage/
+*.class
+*.log
+*.pyc
+*.swp
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode
+.vscode/
+
+# Environment files
+.env*
+!.env.example
+
+# Database
+*.sqlite
+*.db
+
+# Replit specific
+.replit
+.cache/
